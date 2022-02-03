@@ -1,0 +1,213 @@
+
+.eb2 {
+  border-radius: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  height: 8px;
+  width: 850px;
+  border: 2px solid green;
+  padding: 30px;
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* overflowx and y and whitespace is the code to make items horizontal scrollable */
+}
+h1{
+  color: #2196F3;
+}
+
+#search{
+width: 600px;
+height: 40px;
+border-radius: 40px;
+margin-bottom: 70px;
+border-color: green;
+border-style: groove;
+border-width: 3px;
+
+
+}
+#like{
+  color: green;
+  display: inline-block;
+  position: relative;
+  padding-right: 60px;
+
+  bottom: 15px;
+}
+
+#likeb{
+  background-color: transparent;
+  border: transparent;
+}
+
+
+#dislike{
+  color: red;
+  display: inline-block;
+  position: relative;
+  padding-right: 60px;
+  bottom: 15px;
+}
+
+#tt{
+  bottom: 15px;
+  padding-right: 60px;
+  display: inline-block;
+  position: relative;
+
+}
+
+#cname{
+  bottom: 15px;
+  padding-right: 60px;
+  display: inline-block;
+  position: relative;
+
+}
+
+#vn{
+  bottom: 15px;
+  padding-right: 60px;
+  display: inline-block;
+  position: relative;
+
+}
+
+#share{
+  bottom: 15px;
+  padding-right: 70px;
+  display: inline-block;
+  position: relative;
+}
+
+#moon{
+  border-radius: 30px;
+  background: #2196F3;
+  border-color: transparent;
+  position: relative;
+  bottom: 190px;
+  left: 900px;
+}
+
+#comment{
+  bottom: 15px;
+  padding-right: 60px;
+  display: inline-block;
+  position: relative;
+  color: #2196F3;
+}
+
+
+
+  .eb1 {
+    border-radius: 70px;
+    height: 80px;
+    width: 850px;
+    border: 2px solid palevioletred;
+    padding: 80px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+    /* overflowx and y and whitespace is the code to make items horizontal scrollable */
+  }
+
+  .eb1::-webkit-scrollbar-track{
+    background:red;
+   
+  }
+
+  
+
+
+  img{
+    width: 100px;
+    height:100px;
+   
+  }
+
+  h3{
+    padding-right: 50px;
+    position: relative;
+    right:50px; 
+    bottom:80px;
+  }
+
+ .img1{
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   padding-right: 20px;
+   position: relative;
+   bottom:60px;
+  
+   /* when its something with percentage it is the percent of its parent like in this case 
+   img1 parent is box1 */
+
+  
+ }
+
+ .img2{
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+  display: inline-block;
+  position: relative;
+  bottom:60px;
+ }
+
+ .img3{
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+  display: inline-block;
+  position: relative;
+  bottom:60px;
+ }
+
+ .img4{
+  width: 100px;
+  height: 100px;
+  padding-right: 20px;
+  display: inline-block;
+  position: relative;
+  bottom:60px;
+ }
+
+ #mydiv {
+  position: absolute;
+  /* z-index: 15; */
+  background-color: black;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  /* z-index: 18; */
+  background-color: #2196F3;
+  color: #fff;
+}
+
+
+body {
+  padding: 25px;
+  background-color: white;
+  color: purple;
+  font-size: 15px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.commentbox{
+  visibility: visible;
+  
+  
+}
